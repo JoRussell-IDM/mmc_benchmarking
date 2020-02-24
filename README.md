@@ -2,6 +2,12 @@
 
 Benchmarking documentation
 
+___________________
+
+EIR_vs_PfPR
+___________________
+
+
 This exercise to plot model results for PfPR over a range of EIR settings was preformed using executables built from EMOD version 2.15.0.0.
 
 Simulation context details are provided in the accompanying simulation commissioning script (mmc_benchmarking\eir_vs_pfpr\run_sims.py)
@@ -14,4 +20,4 @@ References
 1. https://malariajournal.biomedcentral.com/articles/10.1186/s12936-015-0751-y
 2. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4326442/
  
-
+________________________________________________________________________________
