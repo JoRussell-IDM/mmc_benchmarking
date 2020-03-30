@@ -21,15 +21,15 @@ class EIR_PfPR_Analyzer(BaseAnalyzer):
         self.filenames = ['output/InsetChart.json']
         self.tag = 'annual EIR'
         self.output_fname = output_fname
-        self.channels = ['True Prevalence','PCR Parasite Prevalence', 'Blood Smear Parasite Prevalence', 'PfHRP2 Prevalence']
+        self.channels = ['True Prevalence','PCR Parasite Prevalence', 'PfHRP2 Prevalence','Blood Smear Parasite Prevalence']
 
     def select_simulation_data(self, data, simulation):
-
+        simdata = pd.DataFrame()
         year_to_report = 40
         for channel in self.channels:
 
             pfpr = np.mean(data[self.filenames[0]]['Channels'][channel]['Data'][year_to_report*365:(year_to_report*365+365)])
-            simdata = pd.DataFrame( {channel : [pfpr]})
+            simdata[channel] = pd.Series(pfpr)
 
         simdata[self.tag] = simulation.tags[self.tag]
         return simdata
