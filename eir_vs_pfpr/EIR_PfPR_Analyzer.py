@@ -39,20 +39,20 @@ class EIR_PfPR_Analyzer(BaseAnalyzer):
             return
 
         df = pd.concat(selected).reset_index(drop=True)
-
-        fig = plt.figure()
-        ax = fig.gca()
-
-        ax.scatter(df[self.tag], df['pfpr'], 10)
-        ax.set_xscale('log')
-        ax.set_xlabel(self.tag)
-        ax.set_ylabel('PfPR [2 to 10]')
-        ax.set_ylim(0,1)
-
-        plt.savefig('%s.png' % self.output_fname)
-        plt.savefig('%s.pdf' % self.output_fname, format='PDF')
-
-        plt.close('all')
+        df.to_csv('%s.csv' % self.output_fname)
+        # fig = plt.figure()
+        # ax = fig.gca()
+        #
+        # ax.scatter(df[self.tag], df['pfpr'], 10)
+        # ax.set_xscale('log')
+        # ax.set_xlabel(self.tag)
+        # ax.set_ylabel('PfPR [2 to 10]')
+        # ax.set_ylim(0,1)
+        #
+        # plt.savefig('%s.png' % self.output_fname)
+        # plt.savefig('%s.pdf' % self.output_fname, format='PDF')
+        #
+        # plt.close('all')
 
 if __name__ == '__main__' :
 
