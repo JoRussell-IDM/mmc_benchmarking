@@ -26,7 +26,7 @@ from malaria.interventions.malaria_drug_campaigns import add_drug_campaign
 from dtk.interventions.input_EIR import add_InputEIR
 
 # General
-exp_name = 'healthcare_seeking_moz_eir_sweep'
+exp_name = 'hc_seeking_moz_broader_eir_sweep'
 years = 41 # length of simulation, in years
 
 #Reading in from a config file specific for Malaria Functional Model which relies on 2.0 logic
@@ -98,7 +98,7 @@ healthseeking = [
                ModFn(sweep_scale_factor, x)
 
             ]
-            for x in np.logspace(-3, -1, 50)
+            for x in np.logspace(-3, 0, 100)
             for coverages in healthseeking_coverage_pairs
         ]
 

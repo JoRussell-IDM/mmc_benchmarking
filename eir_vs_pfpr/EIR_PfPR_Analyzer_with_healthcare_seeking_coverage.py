@@ -50,7 +50,7 @@ class EIR_PfPR_Analyzer(BaseAnalyzer):
 
         df = pd.concat(selected).reset_index(drop=True)
 
-        df['group'] = [x[0] for x in df['coverage_pair']]
+        df['group'] = [list(eval(x))[0] for x in df['coverage_pair']]
         df_underfives = df.pivot(index = 'pfpr_underfives', columns = 'group', values = 'ci_underfives')
         df_overfives = df.pivot(index = 'pfpr_overfive', columns = 'group', values = 'ci_overfive')
 
@@ -74,7 +74,7 @@ class EIR_PfPR_Analyzer(BaseAnalyzer):
 
 if __name__ == '__main__' :
 
-    expids = ['4eb264a2-fb72-ea11-a2c5-c4346bcb1550']
+    expids = ['9963e572-3275-ea11-a2c5-c4346bcb1550']
     expnames = ['EIR_sweep']
 
     for expname, expid in zip(expnames, expids) :
