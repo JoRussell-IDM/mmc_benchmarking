@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="36943256-1b62-416b-847f-1a44cb5b9279" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/benchmarking_round_2/EIR_PfPR_Analyzer_with_healthcare_seeking_coverage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarking_round_2/EIR_PfPR_Plotter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarking_round_2/inputs/Namawala_single_node_demographics.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarking_round_2/inputs/Namawala_single_node_demographics_balanced_pop_growth.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarking_round_2/run_scenario_one.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarking_round_2/run_scenario_two.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarking_round_2/simtools.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exe_comparison/analyzers/EIR_PfPR_Plotter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exe_comparison/analyzers/PfPR_Incidence_InsetChart_Analyzer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exe_comparison/analyzers/PfPR_Incidence_Plotter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exe_comparison/commissioners/example_with_cotransmission/COMPS_log.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exe_comparison/commissioners/example_with_cotransmission/inputs/Namawala_single_node_air_temperature_daily.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exe_comparison/commissioners/example_with_cotransmission/inputs/Namawala_single_node_air_temperature_daily.bin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exe_comparison/commissioners/example_with_cotransmission/inputs/Namawala_single_node_demographics.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exe_comparison/commissioners/example_with_cotransmission/inputs/Namawala_single_node_demographics_balanced_pop_growth.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exe_comparison/commissioners/example_with_cotransmission/inputs/Namawala_single_node_land_temperature_daily.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exe_comparison/commissioners/example_with_cotransmission/inputs/Namawala_single_node_land_temperature_daily.bin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exe_comparison/commissioners/example_with_cotransmission/inputs/Namawala_single_node_rainfall_daily.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exe_comparison/commissioners/example_with_cotransmission/inputs/Namawala_single_node_rainfall_daily.bin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exe_comparison/commissioners/example_with_cotransmission/inputs/Namawala_single_node_relative_humidity_daily.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exe_comparison/commissioners/example_with_cotransmission/inputs/Namawala_single_node_relative_humidity_daily.bin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exe_comparison/commissioners/example_with_cotransmission/inputs/campaign.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exe_comparison/commissioners/example_with_cotransmission/inputs/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exe_comparison/commissioners/example_with_cotransmission/inputs/single_node_demographics.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exe_comparison/commissioners/example_with_cotransmission/run_sims.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exe_comparison/commissioners/example_with_cotransmission/simtools.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eir_vs_pfpr/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eir_vs_pfpr/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eir_vs_pfpr/COMPS_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/eir_vs_pfpr/COMPS_log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eir_vs_pfpr/EIR_PfPR_Analyzer_with_healthcare_seeking_coverage.py" beforeDir="false" afterPath="$PROJECT_DIR$/eir_vs_pfpr/EIR_PfPR_Analyzer_with_healthcare_seeking_coverage.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/mmc_benchmarking$EIR_PfPR_InsetChart_Analyzer__1_.coverage" NAME="EIR_PfPR_InsetChart_Analyzer (1) Coverage Results" MODIFIED="1589779067259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/benchmarking_round_2" />
+    <SUITE FILE_PATH="coverage/mmc_benchmarking$run_sims_hc_seeking.coverage" NAME="run_sims_hc_seeking Coverage Results" MODIFIED="1585866980560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eir_vs_pfpr" />
+    <SUITE FILE_PATH="coverage/mmc_benchmarking$PfPR_Incidence_Plotter.coverage" NAME="PfPR_Incidence_Plotter Coverage Results" MODIFIED="1589225232705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exe_comparison/analyzers" />
+    <SUITE FILE_PATH="coverage/mmc_benchmarking$EIR_PfPR_Plotter.coverage" NAME="EIR_PfPR_Plotter Coverage Results" MODIFIED="1589812367681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/benchmarking_round_2" />
+    <SUITE FILE_PATH="coverage/mmc_benchmarking$PfPR_Incidence_InsetChart_Analyzer.coverage" NAME="PfPR_Incidence_InsetChart_Analyzer Coverage Results" MODIFIED="1589223811956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exe_comparison/analyzers" />
+    <SUITE FILE_PATH="coverage/mmc_benchmarking$run_sims.coverage" NAME="run_sims Coverage Results" MODIFIED="1589298047801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exe_comparison/commissioners/example" />
+    <SUITE FILE_PATH="coverage/mmc_benchmarking$EIR_PfPR_Analyzer_with_healthcare_seeking_coverage.coverage" NAME="EIR_PfPR_Analyzer_with_healthcare_seeking_coverage Coverage Results" MODIFIED="1589812309914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/benchmarking_round_2" />
+    <SUITE FILE_PATH="coverage/mmc_benchmarking$run_sims__1_.coverage" NAME="run_sims (1) Coverage Results" MODIFIED="1589391408465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exe_comparison/commissioners/example_with_cotransmission" />
+    <SUITE FILE_PATH="coverage/mmc_benchmarking$run_scenario_one.coverage" NAME="run_scenario_one Coverage Results" MODIFIED="1589563753852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bechmarking_round_2" />
+    <SUITE FILE_PATH="coverage/mmc_benchmarking$EIR_PfPR_InsetChart_Analyzer.coverage" NAME="EIR_PfPR_InsetChart_Analyzer Coverage Results" MODIFIED="1589402116410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exe_comparison/analyzers" />
+    <SUITE FILE_PATH="coverage/mmc_benchmarking$run_scenario_one__1_.coverage" NAME="run_scenario_one (1) Coverage Results" MODIFIED="1589786481355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/benchmarking_round_2" />
+    <SUITE FILE_PATH="coverage/mmc_benchmarking$run_scenario_two.coverage" NAME="run_scenario_two Coverage Results" MODIFIED="1589581044595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/benchmarking_round_2" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PfPR_Incidence_InsetChart_Analyzer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exe_comparison/analyzers/PfPR_Incidence_InsetChart_Analyzer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EIR_PfPR_Plotter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exe_comparison/analyzers/EIR_PfPR_Plotter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run_scenario_one.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/benchmarking_round_2/run_scenario_one.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="145" selection-start-line="145" selection-end-line="145" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run_scenario_two.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/benchmarking_round_2/run_scenario_two.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="73" column="51" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EIR_PfPR_Plotter.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/benchmarking_round_2/EIR_PfPR_Plotter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EIR_PfPR_Analyzer_with_healthcare_seeking_coverage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/benchmarking_round_2/EIR_PfPR_Analyzer_with_healthcare_seeking_coverage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EIR_PfPR_Analyzer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eir_vs_pfpr/EIR_PfPR_Analyzer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simtools.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/benchmarking_round_2/simtools.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run_sims.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exe_comparison/commissioners/example_with_cotransmission/run_sims.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/eir_vs_pfpr/simtools.ini" />
+        <option value="$PROJECT_DIR$/eir_vs_pfpr/run_sims_hc_seeking.py" />
+        <option value="$PROJECT_DIR$/exe_comparison/commissioners/example/inputs/Namawala_single_node_demographics.json" />
+        <option value="$PROJECT_DIR$/exe_comparison/commissioners/example/inputs/Namawala_single_node_demographics_balanced_pop_growth.json" />
+        <option value="$PROJECT_DIR$/exe_comparison/analyzers/EIR_PfPR_Analyzer.py" />
+        <option value="$PROJECT_DIR$/exe_comparison/analyzers/PfPR_Incidence_InsetChart_Analyzer.py" />
+        <option value="$PROJECT_DIR$/exe_comparison/analyzers/PfPR_Incidence_Plotter.py" />
+        <option value="$PROJECT_DIR$/exe_comparison/commissioners/example/run_sims.py" />
+        <option value="$PROJECT_DIR$/exe_comparison/commissioners/example/simtools.ini" />
+        <option value="$PROJECT_DIR$/exe_comparison/commissioners/example_with_cotransmission/run_sims.py" />
+        <option value="$PROJECT_DIR$/exe_comparison/analyzers/EIR_PfPR_InsetChart_Analyzer.py" />
+        <option value="$PROJECT_DIR$/exe_comparison/analyzers/EIR_PfPR_Plotter.py" />
+        <option value="$PROJECT_DIR$/bechmarking_round_2/run_scenario_one.py" />
+        <option value="$PROJECT_DIR$/bechmarking_round_2/simtools.ini" />
+        <option value="$PROJECT_DIR$/benchmarking_round_2/simtools.ini" />
+        <option value="$PROJECT_DIR$/benchmarking_round_2/run_scenario_two.py" />
+        <option value="$PROJECT_DIR$/benchmarking_round_2/EIR_PfPR_InsetChart_Analyzer.py" />
+        <option value="$PROJECT_DIR$/eir_vs_pfpr/EIR_PfPR_Analyzer_with_healthcare_seeking_coverage.py" />
+        <option value="$PROJECT_DIR$/benchmarking_round_2/run_scenario_one.py" />
+        <option value="$PROJECT_DIR$/benchmarking_round_2/EIR_PfPR_Analyzer_with_healthcare_seeking_coverage.py" />
+        <option value="$PROJECT_DIR$/benchmarking_round_2/EIR_PfPR_Plotter.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="805" />
+    <option name="y" value="2148" />
+    <option name="width" value="3026" />
+    <option name="height" value="1946" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mmc_benchmarking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mmc_benchmarking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mmc_benchmarking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mmc_benchmarking" type="462c0819:PsiDirectoryNode" />
+              <item name="benchmarking_round_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mmc_benchmarking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mmc_benchmarking" type="462c0819:PsiDirectoryNode" />
+              <item name="benchmarking_round_2" type="462c0819:PsiDirectoryNode" />
+              <item name="inputs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mmc_benchmarking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mmc_benchmarking" type="462c0819:PsiDirectoryNode" />
+              <item name="eir_vs_pfpr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mmc_benchmarking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mmc_benchmarking" type="462c0819:PsiDirectoryNode" />
+              <item name="eir_vs_pfpr" type="462c0819:PsiDirectoryNode" />
+              <item name="config_campaign_inputs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mmc_benchmarking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mmc_benchmarking" type="462c0819:PsiDirectoryNode" />
+              <item name="eir_vs_pfpr" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mmc_benchmarking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mmc_benchmarking" type="462c0819:PsiDirectoryNode" />
+              <item name="exe_comparison" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mmc_benchmarking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mmc_benchmarking" type="462c0819:PsiDirectoryNode" />
+              <item name="exe_comparison" type="462c0819:PsiDirectoryNode" />
+              <item name="commissioners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mmc_benchmarking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mmc_benchmarking" type="462c0819:PsiDirectoryNode" />
+              <item name="exe_comparison" type="462c0819:PsiDirectoryNode" />
+              <item name="commissioners" type="462c0819:PsiDirectoryNode" />
+              <item name="example_with_cotransmission" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mmc_benchmarking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="mmc_benchmarking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (parasitegenetics) (1) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="mmc_benchmarking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (parasitegenetics) (1) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\git\mmc_benchmarking" />
+      <recent name="C:\git\mmc_benchmarking\exe_comparison\commissioning_scripts" />
+      <recent name="C:\git\mmc_benchmarking\exe_comparison" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git\mmc_benchmarking\benchmarking_round_2" />
+      <recent name="C:\git\mmc_benchmarking\bechmarking_round_2\inputs" />
+      <recent name="C:\git\mmc_benchmarking\bechmarking_round_2" />
+      <recent name="C:\git\mmc_benchmarking\exe_comparison\analyzers" />
+      <recent name="C:\git\mmc_benchmarking\exe_comparison\commissioners" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.EIR_PfPR_Plotter">
+    <configuration name="EIR_PfPR_Analyzer_with_healthcare_seeking_coverage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mmc_benchmarking" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/benchmarking_round_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/benchmarking_round_2/EIR_PfPR_Analyzer_with_healthcare_seeking_coverage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="EIR_PfPR_InsetChart_Analyzer (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mmc_benchmarking" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/benchmarking_round_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/benchmarking_round_2/EIR_PfPR_InsetChart_Analyzer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="EIR_PfPR_Plotter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mmc_benchmarking" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/benchmarking_round_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/benchmarking_round_2/EIR_PfPR_Plotter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="run_scenario_one (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mmc_benchmarking" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/benchmarking_round_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/benchmarking_round_2/run_scenario_one.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="run_scenario_two" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mmc_benchmarking" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/benchmarking_round_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/benchmarking_round_2/run_scenario_two.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.run_scenario_one (1)" />
+      <item itemvalue="Python.run_scenario_two" />
+      <item itemvalue="Python.EIR_PfPR_InsetChart_Analyzer (1)" />
+      <item itemvalue="Python.EIR_PfPR_Analyzer_with_healthcare_seeking_coverage" />
+      <item itemvalue="Python.EIR_PfPR_Plotter" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.EIR_PfPR_Plotter" />
+        <item itemvalue="Python.EIR_PfPR_Analyzer_with_healthcare_seeking_coverage" />
+        <item itemvalue="Python.run_scenario_one (1)" />
+        <item itemvalue="Python.EIR_PfPR_InsetChart_Analyzer (1)" />
+        <item itemvalue="Python.run_scenario_two" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36943256-1b62-416b-847f-1a44cb5b9279" name="Default" comment="" />
+      <created>1585866420789</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585866420789</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="811" y="2154" width="1513" height="973" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3293556" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2792363" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3293556" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1725086" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.36013746" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1725086" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.36013746" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2792363" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3293556" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3293556" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/eir_vs_pfpr/EIR_PfPR_Analyzer_with_healthcare_seeking_coverage.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/eir_vs_pfpr/EIR_PfPR_Analyzer_with_healthcare_seeking_coverage.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exe_comparison/analyzers/PfPR_Incidence_InsetChart_Analyzer.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exe_comparison/analyzers/PfPR_Incidence_Plotter.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exe_comparison/analyzers/PfPR_Incidence_Plotter.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="21" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>[list(eval(x))[0] for x in df['coverage_pair']]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>[[int(s) for s in x.split(',')][0] for x in df['coverage_pair']]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>[list(x) for x in df['coverage_pair']]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>[np.array(x) for x in df['coverage_pair']]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>[np.array(x)[0] for x in df['coverage_pair']]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>[list(x)[0] for x in df['coverage_pair']]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df['coverage_pair'][0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df['coverage_pair']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>[x[0] for x in df['coverage_pair']]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>np.max(df['aEIR'])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/malaria-_VERSION_-py3.6.egg/malaria/infection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/malaria-_VERSION_-py3.6.egg/malaria/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/venv/parasitegenetics/dtk-tools-malaria/examples/global_intervention_impact/intervention_simulation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="65" column="28" lean-forward="true" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/simtools/SimConfigBuilder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eir_vs_pfpr/run_sims_hc_seeking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/venv/parasitegenetics/dtk-tools-malaria/examples/simple_1node_drug_interventions/run_with_interventions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eir_vs_pfpr/simtools.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exe_comparison/commissioners/example/inputs/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="630" column="36" selection-start-line="630" selection-start-column="36" selection-end-line="630" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/malaria-_VERSION_-py3.6.egg/malaria/reports/MalariaReport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/dtk/utils/core/DTKConfigBuilder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="409" selection-start-line="409" selection-end-line="409" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/venv/parasitegenetics/Lib/site-packages/dtk/generic/climate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exe_comparison/commissioners/example/inputs/Namawala_single_node_demographics.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/venv/parasitegenetics/Lib/site-packages/dtk/tools/demographics/DemographicsFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-969" />
+      </provider>
+    </entry>
+    <entry file="file://C:/venv/parasitegenetics/Lib/site-packages/dtk/tools/demographics/compiledemog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663" />
+      </provider>
+    </entry>
+    <entry file="file://C:/venv/parasitegenetics/Lib/site-packages/dtk/tools/demographics/DemographicsGenerator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="316" column="29" selection-start-line="316" selection-start-column="29" selection-end-line="316" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/venv/parasitegenetics/Lib/site-packages/dtk/tools/demographics/DemographicsGeneratorConcern.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exe_comparison/commissioners/example/inputs/Namawala_single_node_demographics_balanced_pop_growth.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exe_comparison/commissioners/example/inputs/single_node_demographics.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="44" column="29" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exe_comparison/commissioners/example_with_cotransmission/inputs/config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exe_comparison/commissioners/cotransmission_seasonality_comparison/inputs/config.json" />
+    <entry file="file://$PROJECT_DIR$/exe_comparison/analyzers/output/ef034076-7590-ea11-a2c5-c4346bcb1550/EIR_sweep_inset_chart.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exe_comparison/analyzers/output/5c02844c-7590-ea11-a2c5-c4346bcb1550/EIR_sweep_inset_chart.eps">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exe_comparison/commissioners/example_healthseeking/simtools.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exe_comparison/analyzers/EIR_PfPR_Analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="852">
+          <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exe_comparison/analyzers/output/5c02844c-7590-ea11-a2c5-c4346bcb1550/EIR_sweep_inset_chart.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exe_comparison/analyzers/output/5c02844c-7590-ea11-a2c5-c4346bcb1550/PfPR_Incidence_inset_chart.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exe_comparison/analyzers/output/5c02844c-7590-ea11-a2c5-c4346bcb1550/PfPR_Incidence_coTran_inset_chart.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/venv/parasitegenetics/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exe_comparison/commissioners/example/simtools.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exe_comparison/commissioners/example/run_sims.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exe_comparison/commissioners/example_with_cotransmission/simtools.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exe_comparison/analyzers/PfPR_Incidence_Plotter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exe_comparison/commissioners/example_healthseeking/run_sims_hc_seeking.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/venv/parasitegenetics/Lib/site-packages/malaria-_VERSION_-py3.6.egg/malaria/interventions/health_seeking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exe_comparison/analyzers/EIR_PfPR_InsetChart_Analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eir_vs_pfpr/config_campaign_inputs/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bechmarking_round_2/inputs/config.json" />
+    <entry file="file://$PROJECT_DIR$/benchmarking_round_2/inputs/Namawala_single_node_demographics_balanced_pop_growth.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/benchmarking_round_2/inputs/Namawala_single_node_demographics.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exe_comparison/commissioners/example_with_cotransmission/run_sims.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/benchmarking_round_2/simtools.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eir_vs_pfpr/run_sims.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exe_comparison/analyzers/EIR_PfPR_Plotter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exe_comparison/analyzers/PfPR_Incidence_InsetChart_Analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eir_vs_pfpr/EIR_PfPR_Analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eir_vs_pfpr/EIR_PfPR_Analyzer_with_healthcare_seeking_coverage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/benchmarking_round_2/EIR_PfPR_InsetChart_Analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="16" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/benchmarking_round_2/run_scenario_two.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="73" column="51" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/benchmarking_round_2/run_scenario_one.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/benchmarking_round_2/EIR_PfPR_Analyzer_with_healthcare_seeking_coverage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/benchmarking_round_2/EIR_PfPR_Plotter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

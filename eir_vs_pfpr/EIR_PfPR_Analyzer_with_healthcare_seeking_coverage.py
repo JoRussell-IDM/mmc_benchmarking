@@ -49,7 +49,7 @@ class EIR_PfPR_Analyzer(BaseAnalyzer):
             return
 
         df = pd.concat(selected).reset_index(drop=True)
-
+        df.to_csv('%s_inset_chart.csv' % self.output_fname)
         df['group'] = [list(eval(x))[0] for x in df['coverage_pair']]
         df_underfives = df.pivot(index = 'pfpr_underfives', columns = 'group', values = 'ci_underfives')
         df_overfives = df.pivot(index = 'pfpr_overfive', columns = 'group', values = 'ci_overfive')

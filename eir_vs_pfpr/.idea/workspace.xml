@@ -10,16 +10,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/eir_vs_pfpr$EIR_PfPR_InsetChart_Analyzer.coverage" NAME="EIR_PfPR_InsetChart_Analyzer Coverage Results" MODIFIED="1585609007097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/eir_vs_pfpr$commission_malaria.coverage" NAME="commission_malaria Coverage Results" MODIFIED="1585779454340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../Malaria-Uganda-PRISM/v14_sensitiveparams_singlesite_sugungum/iter0" />
     <SUITE FILE_PATH="coverage/eir_vs_pfpr$run_sims.coverage" NAME="run_sims Coverage Results" MODIFIED="1581635105580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/eir_vs_pfpr$EIR_PfPR_Analyzer.coverage" NAME="EIR_PfPR_Analyzer Coverage Results" MODIFIED="1581731862532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/eir_vs_pfpr$run_sims_hc_seeking.coverage" NAME="run_sims_hc_seeking Coverage Results" MODIFIED="1585623538816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/eir_vs_pfpr$EIR_PfPR_Analyzer_with_healthcare_seeking_coverage.coverage" NAME="EIR_PfPR_Analyzer_with_healthcare_seeking_coverage Coverage Results" MODIFIED="1585634120854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/eir_vs_pfpr$EIR_PfPR_Analyzer.coverage" NAME="EIR_PfPR_Analyzer Coverage Results" MODIFIED="1585607945671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="EIR_PfPR_Analyzer.py" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="EIR_PfPR_Analyzer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EIR_PfPR_Analyzer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+            <state relative-caret-position="663">
+              <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -30,20 +34,47 @@
       <file leaf-file-name="AnalyzeManager.py" pinned="false" current-in-tab="false">
         <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/simtools/Analysis/AnalyzeManager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="231" selection-start-line="231" selection-end-line="231" />
+            <state relative-caret-position="238">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run_sims.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run_sims.py">
+      <file leaf-file-name="commission_malaria.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Malaria-Uganda-PRISM/v14_sensitiveparams_singlesite_sugungum/iter0/commission_malaria.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="-85">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EIR_PfPR_Analyzer_with_healthcare_seeking_coverage.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EIR_PfPR_Analyzer_with_healthcare_seeking_coverage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataRetrievalProcess.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/simtools/Analysis/DataRetrievalProcess.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2414">
+              <caret line="149" selection-start-line="149" selection-end-line="149" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EIR_PfPR_InsetChart_Analyzer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EIR_PfPR_InsetChart_Analyzer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -51,17 +82,41 @@
       <file leaf-file-name="simtools.ini" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simtools.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MalariaReport.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/malaria-_VERSION_-py3.6.egg/malaria/reports/MalariaReport.py">
+      <file leaf-file-name="run_sims.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_sims.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="45" column="50" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
+            <state relative-caret-position="537">
+              <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run_sims_hc_seeking.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_sims_hc_seeking.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-16">
+              <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="health_seeking.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/malaria-_VERSION_-py3.6.egg/malaria/interventions/health_seeking.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="130" column="33" selection-start-line="130" selection-start-column="33" selection-end-line="130" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -71,9 +126,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/simtools.ini" />
         <option value="$PROJECT_DIR$/run_sims.py" />
+        <option value="$PROJECT_DIR$/EIR_PfPR_InsetChart_Analyzer.py" />
+        <option value="$PROJECT_DIR$/config_campaign_inputs/config.json" />
+        <option value="$PROJECT_DIR$/simtools.ini" />
+        <option value="C:/venv/malaria-ug-icemr/Lib/site-packages/malaria-_VERSION_-py3.6.egg/malaria/interventions/health_seeking.py" />
+        <option value="$PROJECT_DIR$/run_sims_hc_seeking.py" />
         <option value="$PROJECT_DIR$/EIR_PfPR_Analyzer.py" />
+        <option value="$PROJECT_DIR$/EIR_PfPR_Analyzer_with_healthcare_seeking_coverage.py" />
+        <option value="$PROJECT_DIR$/../../Malaria-Uganda-PRISM/v14_sensitiveparams_singlesite_sugungum/iter0/commission_malaria.py" />
       </list>
     </option>
   </component>
@@ -86,11 +147,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="658" />
     <option name="width" value="3026" />
-    <option name="height" value="1946" />
+    <option name="height" value="1949" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -104,6 +164,11 @@
             <path>
               <item name="eir_vs_pfpr" type="b2602c69:ProjectViewProjectNode" />
               <item name="eir_vs_pfpr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eir_vs_pfpr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eir_vs_pfpr" type="462c0819:PsiDirectoryNode" />
+              <item name="config_campaign_inputs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eir_vs_pfpr" type="b2602c69:ProjectViewProjectNode" />
@@ -121,10 +186,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/venv/malaria-ug-icemr/Scripts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git\mmc_benchmarking\eir_vs_pfpr" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -138,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.EIR_PfPR_Analyzer">
+  <component name="RunManager" selected="Python.commission_malaria">
     <configuration name="EIR_PfPR_Analyzer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="eir_vs_pfpr" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,7 +228,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="run_sims" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="EIR_PfPR_Analyzer_with_healthcare_seeking_coverage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="eir_vs_pfpr" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,20 +241,83 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_sims.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EIR_PfPR_Analyzer_with_healthcare_seeking_coverage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="EIR_PfPR_InsetChart_Analyzer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="eir_vs_pfpr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EIR_PfPR_InsetChart_Analyzer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="commission_malaria" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="eir_vs_pfpr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../Malaria-Uganda-PRISM/v14_sensitiveparams_singlesite_sugungum/iter0" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../Malaria-Uganda-PRISM/v14_sensitiveparams_singlesite_sugungum/iter0/commission_malaria.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="run_sims_hc_seeking" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="eir_vs_pfpr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_sims_hc_seeking.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.run_sims" />
       <item itemvalue="Python.EIR_PfPR_Analyzer" />
+      <item itemvalue="Python.EIR_PfPR_InsetChart_Analyzer" />
+      <item itemvalue="Python.run_sims_hc_seeking" />
+      <item itemvalue="Python.EIR_PfPR_Analyzer_with_healthcare_seeking_coverage" />
+      <item itemvalue="Python.commission_malaria" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.commission_malaria" />
+        <item itemvalue="Python.EIR_PfPR_Analyzer_with_healthcare_seeking_coverage" />
+        <item itemvalue="Python.run_sims_hc_seeking" />
+        <item itemvalue="Python.EIR_PfPR_InsetChart_Analyzer" />
         <item itemvalue="Python.EIR_PfPR_Analyzer" />
-        <item itemvalue="Python.run_sims" />
       </list>
     </recent_temporary>
   </component>
@@ -202,30 +335,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1513" height="973" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27088305" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13676976" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" visible="true" weight="0.24398625" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5029821" side_tool="true" visible="true" weight="0.26896012" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4970179" weight="0.17670055" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.4998012" weight="0.32994527" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13996024" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.14473161" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39976135" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4969072" weight="0.36515513" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,25 +374,88 @@
           <line>35</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/EIR_PfPR_InsetChart_Analyzer.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="19" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>pfpr = data[self.filenames[0]]['DataByTime']['PfPR_2to10'][0]</expression-string>
+        <expression-string>df['group'] = [x[0] for x in df['coverage_pair']]
+df_pivot = df.pivot(index = 'pfpr_underfives', columns = 'group', values = 'ci_underfives')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>data[self.filenames[0]]</expression-string>
+        <expression-string>df_pivot.to_csv(r'C:\git\mmc_benchmarking\eir_vs_pfpr\output\9877c946-b54e-ea11-a2c3-c4346bcb1551\EIR_sweep_pivot.csv')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df_pivot.to_csv('%s_pivot.csv' % self.output_fname)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df['group'] = [x[0] for x in df['coverage_pair']]
+df.pivot(index = 'pfpr_underfives', columns = 'group', values = 'ci_underfives')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df['group'] = [x[0] for x in df['coverage_pair']]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df['group'] = [x[0] for x in df['coverage_pair']]
+df.pivot(index = 'pfpr_underfives', columns = 'coverage_pair', values = 'ci_underfives')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df['group'] = [[x][0] for x in df['coverage_pair']]
+df.pivot(index = 'pfpr_underfives', columns = 'coverage_pair', values = 'ci_underfives')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df['group'] = [df['coverage_pair'][x][0] for x in df['coverage_pair']]
+df.pivot(index = 'pfpr_underfives', columns = 'coverage_pair', values = 'ci_underfives')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df['group'] = df['coverage_pair'][0]
+df.pivot(index = 'pfpr_underfives', columns = 'coverage_pair', values = 'ci_underfives')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/EIR_PfPR_Analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/simtools/Analysis/AnalyzeManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3655">
+          <caret line="231" selection-start-line="231" selection-end-line="231" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/simtools.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -270,14 +465,44 @@
     </entry>
     <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/malaria-_VERSION_-py3.6.egg/malaria/reports/MalariaReport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
+        <state relative-caret-position="731">
           <caret line="45" column="50" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run_sims.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="731">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EIR_PfPR_Analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/simtools/Analysis/AnalyzeManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3927">
+          <caret line="231" selection-start-line="231" selection-end-line="231" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_sims.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -285,20 +510,181 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/simtools/Analysis/AnalyzeManager.py">
+    <entry file="file://$PROJECT_DIR$/simtools.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="231" selection-start-line="231" selection-end-line="231" />
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/malaria-_VERSION_-py3.6.egg/malaria/reports/MalariaReport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="45" column="50" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/malaria-_VERSION_-py3.6.egg/malaria/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/dtk/utils/core/DTKConfigBuilder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="144" column="34" selection-start-line="144" selection-start-column="34" selection-end-line="144" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/malaria-_VERSION_-py3.6.egg/malaria/immunity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="45" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/malaria-_VERSION_-py3.6.egg/malaria/infection.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_campaign_inputs/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="566" column="35" lean-forward="true" selection-start-line="566" selection-start-column="35" selection-end-line="566" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/malaria-_VERSION_-py3.6.egg/malaria/symptoms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/malaria-_VERSION_-py3.6.egg/malaria/params.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/venv/malaria-ug-icemr/dtk-tools-malaria/examples/simple_1node_drug_interventions/run_with_interventions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/malaria-_VERSION_-py3.6.egg/malaria/interventions/malaria_diagnostic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="56" column="46" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/malaria-_VERSION_-py3.6.egg/malaria/interventions/malaria_drug_campaigns.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2300">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/malaria-_VERSION_-py3.6.egg/malaria/reports/MalariaReport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simtools.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/malaria-_VERSION_-py3.6.egg/malaria/interventions/health_seeking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="130" column="33" selection-start-line="130" selection-start-column="33" selection-end-line="130" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_sims.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_sims_hc_seeking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EIR_PfPR_InsetChart_Analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/simtools/Analysis/DataRetrievalProcess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2414">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EIR_PfPR_Analyzer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+        <state relative-caret-position="663">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/multiprocessing/pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="643" selection-start-line="643" selection-end-line="643" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/venv/malaria-ug-icemr/Lib/site-packages/simtools/Analysis/AnalyzeManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Malaria-Uganda-PRISM/v14_sensitiveparams_singlesite_sugungum/iter0/commission_malaria.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EIR_PfPR_Analyzer_with_healthcare_seeking_coverage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
