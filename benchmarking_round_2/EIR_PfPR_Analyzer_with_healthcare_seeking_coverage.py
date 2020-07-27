@@ -28,7 +28,6 @@ class EIR_PfPR_Analyzer(BaseAnalyzer):
         simdata = pd.DataFrame(
             {'aEIR': [data[self.filenames[0]]['DataByTime']['Annual EIR'][0]],
              'PfPR_2to10': [data[self.filenames[0]]['DataByTime']['PfPR_2to10'][0]]
-
              }
 
         )

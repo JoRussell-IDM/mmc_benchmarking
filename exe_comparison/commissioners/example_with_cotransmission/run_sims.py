@@ -13,8 +13,8 @@ from dtk.interventions.input_EIR import add_InputEIR
 
 # General --------------------------------------------------------------------------------------------------------
 exp_name = 'PfPR_by_EIR_sweep_CoTransmission_fixedEXE'
-years = 50 # length of simulation, in years
-num_seeds = 5
+years = 6 # length of simulation, in years
+num_seeds = 1
 report_start = years-5
 # Setup ----------------------------------------------------------------------------------------------------------
 # config_path = os.path.join('.', 'inputs','config.json')
@@ -24,7 +24,7 @@ cb = DTKConfigBuilder.from_defaults('MALARIA_SIM')
 
 cb.update_params({
     "Demographics_Filenames": ["Namawala_single_node_demographics_balanced_pop_growth.json"],
-    "x_Base_Population":1,
+    "x_Base_Population":0.1,
     "Enable_Disease_Mortality":0,
     "Simulation_Duration":years*365,
     "Enable_Malaria_CoTransmission": 1,
@@ -111,7 +111,7 @@ run_sim_args = {'config_builder': cb,
 if __name__ == "__main__":
 
     if not SetupParser.initialized:
-        SetupParser.init('HPC')
+        SetupParser.init('LOCAL')
 
     exp_manager = ExperimentManagerFactory.init()
     exp_manager.run_simulations(**run_sim_args)
